@@ -1,0 +1,109 @@
+div{
+    border-radius: 10px;
+}
+
+#header{
+    position: fixed;
+    z-index: 1;
+    height: 50px;
+    width: 99%;
+    background-color: bisque;
+    margin-bottom: 10px;
+}
+
+#Name{
+    float:left;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}
+
+#email{
+    float: right;
+    margin-right: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+.top{
+    float: left;
+    margin-top: 50px;
+    padding-left: 5px;
+    /* margin-right:-10px;
+    margin-left:14%; */
+
+    height: auto;
+    width: 99%;
+    background-color:lightgoldenrodyellow;
+}
+
+/* .bottom{
+    float:left;
+    margin-top: 50px;
+    margin-right:-90px;
+    height: relative;
+    width: 10%;
+    background-color: blue; 
+} */
+
+p2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+
+h2{
+    font-size:x-large;
+    text-decoration: underline;
+    
+}
+
+
+#sharp{
+font-weight: bolder;
+}
+
+table{
+    border: 1px solid;
+    border-style: dotted;
+    width: 100%;
+}
+
+th{
+    height: 50px;}
+
+td{
+    border: 1px solid;
+    border-color:orangered ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+tr:nth-child(even){
+    background-color:lemonchiffon;
+}
+
+
+.box{      
+
+    width: 15px;
+    border: 5px solid green;
+    padding: 60px;
+    height: 30px;
+    position: absolute;
+    right: 40px;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+
+}
+    
+   
+
+
+
